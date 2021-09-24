@@ -1,0 +1,10 @@
+header {
+  width: 100%;
+  background-color: black;
+  height: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
