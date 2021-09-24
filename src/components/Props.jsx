@@ -8,7 +8,8 @@ class Props extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Mi nombre es {this.props.nombre}</h1>
+        <h1>Props</h1>
+        <h2>Mi nombre es {this.props.nombre}</h2>
       </Fragment>
     );
   }
