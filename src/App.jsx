@@ -1,7 +1,8 @@
 import React, { Fragment } from "react";
 
 import "./App.css";
-import EstilosModulo from "./components/EstilosModulos";
+import EstilosConStyle from "./components/EstilosConStyle";
+//import EstilosModulo from "./components/EstilosModulos";
 //import EstilosEnLinea from "./components/EstilosEnLinea";
 //import EstilosTradicionales from "./components/EstilosTradicionales.jsx";
 //import PrimerComponente from "./components/PrimerComponente.jsx";
@@ -18,8 +19,10 @@ function App() {
       <EstilosTradicionales />
       
       <EstilosEnLinea />
-      */}
+      
       <EstilosModulo></EstilosModulo>
+      */}
+      <EstilosConStyle></EstilosConStyle>
     </Fragment>
   );
 }
